@@ -1,17 +1,27 @@
 {
-    "name": "check24/energy/partner/client",
+    "name": "Test-S",
+    "description": "Test starten",
+    "type": "project",
+    "authors":  [
+        {
+            "name": "Marv",
+            "email": "sakty@gmx.de"
+        }
+    ],
     "repositories": [
         {
-            "packagist": false
+            "type": "git",
+            "url": "https://github.com/CHECK24/check24-energy-partner-client"
         }
     ],
     "require-dev": {
     },
-    "require": {
+    "require": "check24/energy/partner/client":"$2y$10$0P8zfPenJg3hLBd/MkCJW.IBTX3clfx1GZfY8hPX69yKidjUYMKE."
         "php": ">=5.3.3",
         "ext-curl": "*",
         "ext-json": "*"
     },
+
     "config": {
         "vendor-dir": "vendor"
     },
